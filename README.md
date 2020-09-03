@@ -5,7 +5,7 @@ Replies to the same type of user queries automatically with web sockets implemen
   * PHP-Laravel Framework
   * Pusher Js
   * Vue JS
-  * Some node modules
+  * Node modules
   * Bootstrap-4
   * MySQL
 
