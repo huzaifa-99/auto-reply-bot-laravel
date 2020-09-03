@@ -8,7 +8,6 @@ Replies to the same type of user queries automatically with web sockets implemen
   * Some node modules
   * Bootstrap-4
   * MySQL
-  * Ajax
 
 # Interface
 The first page has `login/register` buttons in the nav-bar, after clicking on one the user is redirected accordingly. 
@@ -20,9 +19,9 @@ If the logged-in user is an admin he can route to `/admin` and add or remove que
 # Project Installation
  * Download the project and unzip. 
  * Next, the `code` folder must be placed into the `htdocs` folder.
+ * Go into the code folder and open it up in cli, then run `composer install` for `/vendor` and `npm install` for `node_modules`.
  * Database (in `database` folder) must be imported into MySQL for the code to function properly, Database username and password are the default ones for Xampp.
  * To run the project, use command `php artisan serve` in the current directory with cmd and go to the server url, which will take you to the `home` page. The process after that is already explained above.
- * **Note:-** I have placed all the components pre-compiled in the code folder.
 
 # Project Demo
 A demo video is available on [https://youtu.be/0NBsDduHhtw]. Previews are also available on this repo in `Previews` Folder
